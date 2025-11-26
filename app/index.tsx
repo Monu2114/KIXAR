@@ -51,7 +51,7 @@ export default function Index() {
         </View>
 
         <View style={styles.bookBtn}>
-          <Text style={{ color: "white", fontWeight: "600" }}>Book Now →</Text>
+          <Text style={{ color: "white", fontWeight: "600" }}>Book Now </Text>
         </View>
       </View>
     </View>
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   },
 
   bookBtn: {
-    backgroundColor: "#00A68C",
+    backgroundColor: "#2DB0A3",
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 12,
