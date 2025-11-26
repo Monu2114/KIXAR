@@ -1,10 +1,10 @@
-import DateButton from "@/components/ui/dateButton";
-import Time from "@/components/ui/time";
-import { Typography } from "@/styles/typography";
 import { Ionicons } from "@expo/vector-icons";
 import { Stack } from "expo-router";
 import { useState } from "react";
 import { ScrollView, Text, View } from "react-native";
+import DateButton from "../components/ui/dateButton";
+import Time from "../components/ui/time";
+import { Typography } from "../styles/typography";
 
 export default function Booking() {
   const [selectedDate, setSelectedDate] = useState("24");
