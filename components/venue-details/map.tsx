@@ -1,5 +1,5 @@
-import { Typography } from "@/styles/typography";
 import { Image, Text, View } from "react-native";
+import { Typography } from "../../styles/typography";
 
 export default function Map() {
   return (

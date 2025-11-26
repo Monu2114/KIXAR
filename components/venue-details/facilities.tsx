@@ -1,5 +1,5 @@
-import { Typography } from "@/styles/typography";
 import { Text, View } from "react-native";
+import { Typography } from "../../styles/typography";
 import Button from "../ui/button";
 
 const Facilities = () => {

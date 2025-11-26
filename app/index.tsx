@@ -1,4 +1,3 @@
-import { Typography } from "@/styles/typography";
 import {
   ScrollView,
   StyleSheet,
@@ -13,6 +12,7 @@ import Map from "../components/venue-details/map";
 import Offers from "../components/venue-details/offers";
 import Sports from "../components/venue-details/sports";
 import Timings from "../components/venue-details/timings";
+import { Typography } from "../styles/typography";
 
 import { router } from "expo-router";
 
