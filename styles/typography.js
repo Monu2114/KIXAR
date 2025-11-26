@@ -23,8 +23,8 @@ export const Typography = StyleSheet.create({
   },
   line: {
     height: 0.4, // Adjust the height for thicker lines
-    backgroundColor: "gray", // Set the color of your line
-    width: "100%", // Make the line span the full width
+    backgroundColor: "#111111", // Set the color of your line
+    width: "350px", // Make the line span the full width
     marginVertical: 10, // Add vertical spacing if needed
     marginTop: 30,
   },

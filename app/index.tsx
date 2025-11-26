@@ -6,7 +6,16 @@ import Offers from "@/components/venue-details/offers";
 import Sports from "@/components/venue-details/sports";
 import Timings from "@/components/venue-details/timings";
 import { Typography } from "@/styles/typography";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+
+import { router } from "expo-router";
+
 const PlaceholderImage = require("@/assets/images/football.png");
 
 export default function Index() {
@@ -50,9 +59,12 @@ export default function Index() {
           </Text>
         </View>
 
-        <View style={styles.bookBtn}>
+        <TouchableOpacity
+          style={styles.bookBtn}
+          onPress={() => router.push("/booking")}
+        >
           <Text style={{ color: "white", fontWeight: "600" }}>Book Now </Text>
-        </View>
+        </TouchableOpacity>
       </View>
     </View>
   );
