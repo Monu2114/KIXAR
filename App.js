@@ -1,1 +1,5 @@
-import "expo-router/entry";
+import Index from "./app/index";
+
+export default function App() {
+  return <Index />;
+}
